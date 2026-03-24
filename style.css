@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+
+.ling {
+  width: 63px;
+}
+a {
+  text-decoration: none;
+}
+.content {
+  width: 1440px;
+  margin: 0 auto;
+}
+.nav {
+  width: 100%;
+}
+.nav_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+.nav_li {
+width: 143px;
+height: 24px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: #565656;
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.lng {
+  width: 70px;
+  height: 24px;
+  font-size: 15px;
+  border: none;
+}
+.in {
+  width: 100%;
+}
+.in_con {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  margin: 60px auto;
+}
+
+.in_ti {
+  /* Делайте снимки и записывайте экран в 1 клик */
+
+width: 525px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 57px;
+
+/* #131313 */
+color: #131313;
+
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+span {
+  /* frame */
+
+/* Rectangle 2 */
+
+box-sizing: border-box;
+
+color: #7421B0;
+
+background: rgba(116, 33, 176, 0.16);
+/* #7421B0 */
+border: 1px solid #7421B0;
+
+}
+/* Вместе со Screenshoter можно в один клик сделать снимок или записать происходящее на экране ПК, чтобы поделиться с кем угодно */
+
+.in_text{
+
+/* text */
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 200%;
+/* or 36px */
+
+/* #828282 */
+color: #828282;
+}
+.in_btn {
+  background: linear-gradient(to right, #7421B0, #ba76eb);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 23px 41px;
+}
+.Footer {
+margin: 20px;
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+
+
+.Footer__div {
+   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px; 
+}
+
+
+.Footer__img2 {
+  width: 230px;
+  height: 70px;
+}
+
+
+.home__img{
+  padding: 100px;
+  border: 2px solid black
+}
+.home__img2
+{
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+ 
+}
+.img {
+  margin-bottom: 20px;
+}
+.img3 {
+  margin-bottom: 120px;
+}
